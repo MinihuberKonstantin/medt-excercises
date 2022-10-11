@@ -21,43 +21,43 @@ in the subject medt, you programm web pages using at first only **html** and **c
 
 ### [UE1](https://github.com/MinihuberKonstantin/medt-excercises/tree/main/UE1)
 
-only some simple html, nothing else yet
+Only some simple html, nothing else yet.
 
 ### [UE2](https://github.com/MinihuberKonstantin/medt-excercises/tree/main/UE2)
 
-we got a html file with some really stupid mistakes and had to correct all of them
+We got a html file with some really stupid mistakes and had to correct all of them.
 
 ### [UE3](https://github.com/MinihuberKonstantin/medt-excercises/tree/main/UE3)
 
-we learned about br and hr
+We learned about br and hr.
 
 ### [UE4](https://github.com/MinihuberKonstantin/medt-excercises/tree/main/UE4)
 
-we learned how to ul and ol
+We learned how to ul and ol.
 
 ### [UE5](https://github.com/MinihuberKonstantin/medt-excercises/tree/main/UE5)
 
-just like UE4
+Just like UE4.
 
 ### [UE6](https://github.com/MinihuberKonstantin/medt-excercises/tree/main/UE6)
 
-a simple webpage about the history of html which we had to make ourselves
-I did a lot of stuff which we hadn't yet learned
+A simple webpage about the history of html which we had to make ourselves.
+I did a lot of stuff which we hadn't yet learned.
 
 ### [UE7](https://github.com/MinihuberKonstantin/medt-excercises/tree/main/UE7)
 
-nothing but some rather simple meta tag stuff
+Nothing but some rather simple meta tag stuff.
 
 ### [UE8](https://github.com/MinihuberKonstantin/medt-excercises/tree/main/UE8)
 
-a news web page but bought on wish
-we had probably already learned some simple inline css at this point but definitely not nearly as much as I used
+A news web page but bought on wish.
+We had probably already learned some simple inline css at this point but definitely not nearly as much as I used.
 
 ### [UE9](https://github.com/MinihuberKonstantin/medt-excercises/tree/main/UE9)
 
-we had to make a shop, including several linked together html files
-everyone was too stupid to do it fsr
+We had to make a shop, including several linked together html files.
+Everyone was too stupid to do it fsr.
 
 ### [UE10](https://github.com/MinihuberKonstantin/medt-excercises/tree/main/UE10)
 
-just some img tag stuff
+Just some img tag stuff.
