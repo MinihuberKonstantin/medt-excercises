@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Civilization VI</title>
+    <link rel="stylesheet" href="./style.css">
+    <meta charset="UTF-8">
+    <meta name="description" content="Page about Sid Meier's Civilization VI">
+    <meta name="keywords" content="civilization vi, civilization 6, civ6, sid meier">
+    <meta name="author" content="Konstantin Minihuber">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="./index.js"></script>
+</head>
+
+<body>
+    <nav>
+        <br>
+        <h1>Civilization VI</h1>
+        <br>
+        <br>
+        <br>
+        <button type="button" onclick="changePage('block', 'none', 'none', 'none')">About</button>
+        <br>
+        <button type="button" onclick="changePage('none', 'block', 'none', 'none')">Images</button>
+        <br>
+        <button type="button" onclick="changePage('none', 'none', 'block', 'none')">Gameplay</button>
+        <br>
+        <button type="button" onclick="changePage('none', 'none', 'none', 'block')">Soundtracks</button>
+    </nav>
+
+    <div id="nav-section-transition"></div>
+
+    <section style="display: none;" id="text">
+        <br>
+        <h2>About<span style="color: black"> Sid Meier's Civilization</span> <span style="color: #813904">VI</span></h2>
+        <div id="review-wall">
+            <div class="up-down-opacity-transition"></div>
+            <p class="review" id="review1">“I'll never need another Civ game in my life besides this one”<br>93 / 100 -
+                PC Gamer</p>
+            <p class="review" id="review2">“Possibly the biggest and deepest game in the series' 25-year
+                history.”<br>9.4 / 10 - IGN</p>
+            <p class="review" id="review3">“One of the most rewarding 4X experiences to date”<br>9.5 / 10 - Game
+                Informer</p>
+            <p class="review" id="review4">“I've allegedly played 375 hours of this but all i did was play a few more
+                turns.”<br>Some random steam review</p>
+            <div class="down-up-opacity-transition"></div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <div id="game-info">
+            <div id="aboutGame">
+                <div class="up-down-opacity-transition" style="width: 50vw; height: 10%"></div>
+                <p>Sid Meier's Civilization VI is a turn-based strategy 4X video game developed by Firaxis Games,
+                    published by 2K Games, and distributed by Take-Two Interactive. The Mobile port was published by
+                    Aspyr Media. The latest entry into the Civilization series, it was released on Microsoft Windows and
+                    macOS in October 2016, with later ports for Linux in February 2017, iOS in December 2017, Nintendo
+                    Switch in November 2018, PlayStation 4 and Xbox One in November 2019 and Android in 2020. Similar to
+                    previous installments, the goal for the player is to develop a civilization from an early settlement
+                    through many in-game millennia to become a world power and achieve one of several victory
+                    conditions, such as through military domination, technological superiority, or cultural influence,
+                    over the other human and computer-controlled opponents. Players do this by exploring the world,
+                    founding new cities, building city improvements, deploying military troops to attack and defend from
+                    others, researching new technologies and civics advancements, developing an influential culture, and
+                    engaging in trade and negotiations with other world leaders. The game features several civilizations
+                    not featured in previous incarnations of Civilization, while many returning civilizations have new
+                    capitals or new leaders. A critical design focus was to avoid having the player follow a pre-set
+                    path of improvements towards their civilization which they had observed from earlier games. New to
+                    Civilization VI is the use of districts outside the city center to house most of the buildings. For
+                    example, a campus district must be built in order to house science-based buildings. Other new
+                    features include research on the game's technology tree based on nearby terrain, a similar
+                    technology tree for cultural improvements and a better government civics structure for those playing
+                    on a cultural victory path. There is also new artificial intelligence mechanics for
+                    computer-controlled opponents, which includes secret goals and randomized engagements to disrupt an
+                    otherwise stable game. The game received generally positive reviews upon release, and it was awarded
+                    Best Strategy Game at The Game Awards 2016. The game's first major expansion, Civilization VI: Rise
+                    and Fall, was released in February 2018. A second expansion, Civilization VI: Gathering Storm,
+                    followed in February 2019, and a season pass, The New Frontier Pass, in May 2020.</p>
+            </div>
+            <div id="aboutDevelopment">
+                <div class="up-down-opacity-transition" style="width: 50vw; height: 10%"></div>
+                <p>The game was developed by the same Firaxis Games team that developed the expansions on Civilization
+                    V, and most of the new mechanics introduced in these were present in Civilization VI at its
+                    launch. This follows from Sid Meier's "33/33/33" rule of sequel design: 33% of the game should
+                    retain established systems, 33% should feature improved systems over the previous version, and the
+                    remaining 33% should feature new material. Firaxis used "Frankenstein", a small group of
+                    dedicated Firaxis fans, to bounce ideas for gameplay improvements. Because of the larger number
+                    of systems in place, the studio expected to ship the game with a large-scale tutorial, separate but
+                    supplementing the guidance given by the player's various in-game advisors. A major foundation of
+                    the development of Civilization VI was to prevent players from following
+                    routines in playing through a game, according to lead designer Ed Beach. The developers placed much
+                    more emphasis on the significance of the procedurally-generated map in how it would influence the
+                    player's strategy as the game progressed, so that no game of Civilization VI would be the same.
+                    For example, the redesigned technology tree was aimed to pull players away from automatically
+                    following a rote path through the tree, and instead adapt a path through it based on their placement
+                    on the map.</p>
+            </div>
+        </div>
+        <div id="aboutTheDev">
+            <p>Sidney K. Meier, born February 24, 1954, is a Canadian-American programmer, designer, and producer of several strategy video games and simulation video games, including the Civilization series. Meier co-founded MicroProse in 1982 with Bill Stealey and is the Director of Creative Development of Firaxis Games, which he co-founded with Jeff Briggs and Brian Reynolds in 1996. For his contributions to the video game industry, Meier was inducted into the Academy of Interactive Arts and Sciences Hall of Fame.</p>
+        </div>
+    </section>
+
+    <section style="display: none;" id="image">
+        <h2>Image gallery</h2>
+        <div id="images">
+            <img alt="civ6 image 1" id="image1" src="./media/jpg/Civ6LogoLarge.jpg">
+            <img alt="civ6 image 2" id="image2" src="./media/jpg/Civilization_VI_screenshot_1.webp">
+            <img alt="civ6 image 3" id="image3" src="./media/jpg/download.jpg">
+            <img alt="civ6 image 4" id="image4" src="./media/jpg/Low_Loyalty_City_29.webp">
+            <img alt="civ6 image 5" id="image5" src="./media/jpg/maxresdefault.jpg">
+            <img alt="civ6 image 6" id="image6" src="./media/jpg/ss_7f598198526afc260d939a98af4d76d95f5349e4.1920x1080.jpg">
+        </div>
+    </section>
+
+    <section style="display: none;" id="video">
+        <p>Here's some example civilization VI gameplay, shown in a short YouTube video by some who is (unlike me) actually good at the game:</p>
+        <iframe width="1280" height="720" src="https://www.youtube.com/embed/Gwfo1x9jqI8" title="The perfect start location doesn't exist... [Spits out Cereal] - Civ 6 Russia GIGA Start" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </section>
+
+    <section style="display: none;" id="audio">
+        <h2>Civilization VI-soundtracks</h2>
+        <br>
+        <p class="audio-title">The dream of flight</p>
+        <audio controls>
+            <source src="./media/mp3/The Dream of Flight.mp3" type="audio/mpeg">
+            What's a audio?
+        </audio>
+        <br>
+        <br>
+        <br>
+        <br>
+        <p class="audio-title right">A new course</p>
+        <audio class="audio-right" controls>
+            <source src="./media/mp3/A New Course.mp3" type="audio/mpeg">
+        </audio>
+        <br>
+        <br>
+        <br>
+        <br>
+        <p class="audio-title">Rise and fall</p>
+        <audio controls>
+            <source src="./media/mp3/Rise and Fall.mp3" type="audio/mpeg">
+        </audio>
+        <br>
+        <br>
+        <br>
+        <br>
+        <p class="audio-title right">Gathering storm</p>
+        <audio class="audio-right" controls>
+            <source src="./media/mp3/Gathering Storm.mp3" type="audio/mpeg">
+        </audio>
+    </section>
+
+    <div id="section-footer-transition"></div>
+
+    <footer>
+        <br>
+        <p>Webpage made by Konstantin Minihuber, 2BHITM</p>
+        <br>
+        <p>School year 2022/23</p>
+    </footer>
+</body>
+
+</html>
